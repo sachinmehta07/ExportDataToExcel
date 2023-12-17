@@ -1,0 +1,39 @@
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"/>
+
+    <EditText
+        android:id="@+id/editTextDep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/editTextName"
+        android:hint="Student Department"/>
+
+    <EditText
+        android:id="@+id/editTextRoleNo"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDep"
+        android:hint="Student Role No"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/editTextRoleNo"
+        android:text="Submit"/>
+</RelativeLayout>
